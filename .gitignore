@@ -1,0 +1,29 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local settings and personal data
+.env
+.env.*
+!.env.example
+config/api_keys.json
+memory/memory.json
+memory/phone_book.json
+
+# Build outputs
+*.exe
+/build/
+/build_single/
+/dist/
+/dist_single/
+/.build-tmp/
+/.build-new/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
